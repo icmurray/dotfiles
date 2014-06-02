@@ -91,13 +91,13 @@ bindsym $mod+p focus parent
 bindsym $mod+1 workspace 1: work
 bindsym $mod+2 workspace 2: www
 bindsym $mod+3 workspace 3: mail
-bindsym $mod+4 workspace 4: music
+bindsym $mod+4 workspace 4: irc
 
 # Same again, but with windows key too
 bindsym Mod4+1 workspace 1: work
 bindsym Mod4+2 workspace 2: www
 bindsym Mod4+3 workspace 3: mail
-bindsym Mod4+4 workspace 4: music
+bindsym Mod4+4 workspace 4: irc
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number 1
