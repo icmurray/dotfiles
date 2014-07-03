@@ -102,11 +102,11 @@ bindsym Mod4+4 workspace 4: irc
 bindsym Mod4+5 workspace 5: background
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number 1
-bindsym $mod+Shift+2 move container to workspace number 2
-bindsym $mod+Shift+3 move container to workspace number 3
-bindsym $mod+Shift+4 move container to workspace number 4
-bindsym $mod+Shift+5 move container to workspace number 5
+bindsym $mod+Shift+1 move container to workspace number 1: work
+bindsym $mod+Shift+2 move container to workspace number 2: www
+bindsym $mod+Shift+3 move container to workspace number 3: mail
+bindsym $mod+Shift+4 move container to workspace number 4: irc
+bindsym $mod+Shift+5 move container to workspace number 5: background
 
 # moving workspaces between monitors
 bindsym $mod+Shift+Left move workspace to output left
