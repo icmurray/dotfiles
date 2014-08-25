@@ -69,6 +69,7 @@ bindsym $mod+m split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
+bindsym $mod+shift+F fullscreen global
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+o layout stacking
@@ -153,8 +154,7 @@ bindsym $mod+Shift+p exec xfce4-session-logout
 bindsym Mod4+l exec xflock4	# Win+l
 
 # program launchers
-bindsym $mod+Shift+f exec firefox
-bindsym $mod+Shift+m exec firefox 'http://gmail.com'
+bindsym $mod+Shift+b exec firefox
 
 # scratch pad
 bindsym $mod+Shift+minus move scratchpad
